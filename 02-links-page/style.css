@@ -1,0 +1,81 @@
+/* styles.css */
+
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f5f7fb;
+    min-height: 100vh;
+}
+
+/* Centrado total */
+.page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+/* Tarjeta */
+.card {
+    width: 360px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.10);
+    padding: 28px 22px;
+    text-align: center;
+}
+
+/* Foto redonda */
+.avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 999px;
+    object-fit: cover;
+    box-shadow: 0 10px 18px rgba(15, 23, 42, 0.12);
+    margin: 0 auto 14px;
+    display: block;
+}
+
+/* Textos */
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 6px;
+}
+
+.role {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 18px;
+}
+
+/* Botones tipo link */
+.link {
+    display: block;
+    text-decoration: none;
+    background: #e8f7f5;
+    color: #0f766e;
+    padding: 12px 14px;
+    border-radius: 12px;
+    margin: 15px 0;
+    box-shadow: 0 8px 16px rgba(15, 23, 42, 0.06);
+    transition: transform 180ms ease, background 180ms ease, color 180ms ease;
+}
+
+/* Hover suave */
+.link:hover {
+    background: #d7f3ef;
+    color: #115e59;
+    transform: translateY(-2px);
+}
